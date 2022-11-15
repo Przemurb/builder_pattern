@@ -15,6 +15,17 @@ public class Address {
         this.country = builder.country;
     }
 
+    @Override
+    public String toString() {
+        return "Address{" +
+                "street='" + street + '\'' +
+                ", houseNumber='" + houseNumber + '\'' +
+                ", zipCode='" + zipCode + '\'' +
+                ", city='" + city + '\'' +
+                ", country='" + country + '\'' +
+                '}';
+    }
+
     public static class Builder {
         private String street;
 

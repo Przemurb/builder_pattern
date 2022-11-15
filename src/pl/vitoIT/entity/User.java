@@ -17,6 +17,17 @@ public class User {
         this.age = builder.age;
     }
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "firstname='" + firstname + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", nick='" + nick + '\'' +
+                ", email='" + email + '\'' +
+                ", pesel='" + pesel + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     public static class Builder {
         private String firstname;
