@@ -37,32 +37,32 @@ public class User {
         private String pesel;
         private int age;
 
-        public Builder firstname(String firstname) {
+        public Builder firstname(final String firstname) {
             this.firstname = firstname;
             return this;
         }
 
-        public Builder lastName(String lastName) {
+        public Builder lastName(final String lastName) {
             this.lastName = lastName;
             return this;
         }
 
-        public Builder nick(String nick) {
+        public Builder nick(final String nick) {
             this.nick = nick;
             return this;
         }
 
-        public Builder email(String email) {
+        public Builder email(final String email) {
             this.email = email;
             return this;
         }
 
-        public Builder pesel(String pesel) {
+        public Builder pesel(final String pesel) {
             this.pesel = pesel;
             return this;
         }
 
-        public Builder age(int age) {
+        public Builder age(final int age) {
             this.age = age;
             return this;
         }

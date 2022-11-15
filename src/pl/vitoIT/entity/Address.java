@@ -34,26 +34,26 @@ public class Address {
         private String city;
         private String country;
 
-        public Builder houseNumber(String houseNumber) {
+        public Builder houseNumber(final String houseNumber) {
             this.houseNumber = houseNumber;
             return this;
         }
-        public Builder street(String street) {
+        public Builder street(final String street) {
             this.street = street;
             return this;
         }
 
-        public Builder zipCode(String zipCode) {
+        public Builder zipCode(final String zipCode) {
             this.zipCode = zipCode;
             return this;
         }
 
-        public Builder city(String city) {
+        public Builder city(final String city) {
             this.city = city;
             return this;
         }
 
-        public Builder country(String country) {
+        public Builder country(final String country) {
             this.country = country;
             return this;
         }

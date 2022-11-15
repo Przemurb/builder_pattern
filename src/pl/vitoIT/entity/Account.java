@@ -4,7 +4,6 @@ public class Account {
     private Long id;
     private String login;
     private String password;
-
     private User user;
     private Address address;
 
@@ -34,7 +33,7 @@ public class Account {
         private User user;
         private Address address;
 
-        public Builder(String login) {
+        public Builder(final String login) {
             this.login = login;
         }
 
@@ -48,12 +47,12 @@ public class Account {
             return this;
         }
 
-        public Builder user(User user) {
+        public Builder user(final User user) {
             this.user = user;
             return this;
         }
 
-        public Builder address(Address address) {
+        public Builder address(final Address address) {
             this.address = address;
             return this;
         }
